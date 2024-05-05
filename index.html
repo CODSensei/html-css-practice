@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice</title>
-  <link rel="stylesheet" href="style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-  <div class="profile-card">
-    <div class="image">
-      <img src="MINE.jpg" alt="" class="profile-img">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="parent">
+        <div class="image">
+          <img src="MINE.jpg" alt="" class="profile-img" />
+        </div>
+      </div>
+      <div class="child">
+        <div class="name">
+          <div class="details">
+            <p id="my-name">CODSensei</p>
+            <p id="my-job">Student & Coder</p>
+          </div>
+        </div>
+        <div class="social">
+          <img
+            style="background-color: blue; border-radius: 50%"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABWUlEQVRIS7WVgbEBQQyGqeCVgAoeFdABKnhUgApQASpABehACXRAB1TA/5vbm4jdzZ55l5nM3e5t8mWz2Vy1UrJUS/ZfSQH0EEQX2syUMZ0y3eN5iAUZA9DxAlo3dnnB9wmUsA8JAZZYOSqYPtoQ9CY+wDfOndMVXsaSoAFMyy4S+TVzINMxw9xU2PRlujSA+awFAHfM86C5RooG8HvDLZAAK/otjAbCcwfvbSifVCn5LiRggxV/geg5PYcyWkpyMBLA2v5NBOi0aDP6anFSAh4R53oHFiD3nQKwbvsR3ngWWl520viCsa+CLMANdj/K+xljVtwbYIOx75AtgC+1ecVJ4wEA63865CH8MOCPbhpKU5FD5m2vu0CLtAp5D2JVFG0VBIeaXQrAbHZuZ74DtwC6lbx8WT8c7saVbgjg67B5rVglyIWsrg706CojMOctwBRApHLtT6UDnrHlSRl+jnqOAAAAAElFTkSuQmCC"
+          />
+          <img style="background-color: skyblue;border-radius: 50%;""
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABV0lEQVRIS92V/VECMRDFoQItgQ6QCjw7gArUCsAOoALsgOtA7YAOlAqECoAK8P2YhMmFzd3FmfuHndk5Jvvx8l6Spd/r2Pod9+/dHsC9JDu0kG2snKm8kG/lpXzh6oh9+h6xRCST8FMDMlNsacSpeZC/yd8tgIEWfx2Dib5rowk533KYWgbIxgGcNxkyoGgfVJX6DW1YeYPdR6I5y0c5OZfNxRIReIwaoCcO0EhuyeNLvhzApUXMoFCEnd/V7LIuBON5mBAzOP2zsS+rHDCLbSTKwUTCyg2MAQZO72FOV5e705f6ilmjgnPgEXEbcuxKHksi1l7kq5zOymX3PLKrKZAadrxEWLS1JyWureS6aYqec/lzA8qr4mUqJwUAXRggV8p4tcylZHMKQ4DCFfCSU7PGg/Fiab5t0tBiwK4Bg4W/rgwwDjAcG029z/Hb+0drRTsnqXOJ/gC/IzgZKD4sGQAAAABJRU5ErkJggg=="
+          /> <img style="background-color: pink;border-radius: 50%;""
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABhklEQVRIS82VgVHDMAxF2w1ggoYJChMQJoANmk4AnQA6ATABYQLYgHaClgnICDBB+Y+TOWGSODkuV3T3TxDL+l+yrY5HA9t44PyjvRHkqmwmHBvaCt1qETwKqziwroJCQQ8WuJZ/twR1JAg4EE5tcS5f+sCYAOUvAokhqjqeUaa4Z2EqnPlKYgLYLwQ2oDxlqKfaV1P+Jk+rEPdlMQG9JHFek5lNE/teWSJatBGomD0rizlqIthp4V64cgQkQSXeG2LoOQYhwiDgPL6FxxVAsBRuXCYSZfattO+F/K3A2omL7U1AItQvhDsvX39TJST+5vQmoJJr4dBa4DmoikP1Ff8/grYWher+1CJawkFyPUnIHccu7X/uv79dnVpUd01LJeKVeiM5FSIgWJIg9dAyy1TJQxobBMSEuF8vmU3nAi+xy6jwBCRNjopcQQw7lHB4KO1iJH8SOI/WYUeyQgjjGqK2cY0gLPjkuA5q2QARPgy4pko+tIAQXjr+h+3tJ7NJbe/vg1fwCW3KaRm/9ADsAAAAAElFTkSuQmCC"
+          /> <img style="background-color: red;border-radius: 50%;""
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA6UlEQVRIS2NkoDFgpLH5DKMWEAxh9CByAOrIB2IBKDYgaAJEwQGougdAeiESHyUOQIbvJ9JAQsocYZYg+2ADUNCfkE4i5TcC1QWA1CJbAPKmPZEGEFJ2EKgAFCIoFvwnoAvk7QVALE/IdKg82PHIPiBkAUxtA1BfARDzE7CIbAtA5oJS2QQgjsdjCcUW1EN9gssOsi0ABQ/IcJAv8AGSLQBF8nwgViAikj/CHIAcyReAgvpEaCZGCdZkSvOMBsp564lxHhFqsBYVIH0OQJyAFM7E5uyLQD0foHgBkAaFBhiMVjgEo2PoBxEAb/UiGbUC4RkAAAAASUVORK5CYII="
+          />
+        </div>
+        <div class="options">
+          <button class="buttons" id="Suscrive">Suscribe</button>
+          <button class="buttons" id="Message">Message</button>
+        </div>
+        <div class="more-options">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABL0lEQVRIS9VVgQ3CMAxjF8AJcAFwAeMS4ANO4QPGJcAHcAGcABdAjJIqi7o2Q6oQlaKyprNjNx3VoPCoCuMPfkawJmUripoVnmhuKA78nMsHY6yCEWWOFLMO6y68nsovac9D3rcEAJhSPCm2FKgcA0p2FEN+lrwmlDzW5jECyN4z+FhXwZuhThOGKlX+zkVsaG6wrhXg5QVFSEoVPWYp8syqWwQvBprQjEq+GVB+4xc/xWsFxQmKWyT+4fBgkz3EnGVoAtiDOXrIAJA2xdzq5wy6vj9X2hvuSeyiwSrcBS+JBa+1+ti3SPrdQ5IEt12kXfCQZMFTBMilSFzgOYIuEqzLBxEH2vLcNoPn/8AqAQa6JAvuUSAFaRKsucD7EGi78Dtpi7bJY1HmjqXT/0/wBns7VxlQpzWwAAAAAElFTkSuQmCC"
+          />
+          60.5k |
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABg0lEQVRIS7WUjTEEQRCF7yJABDaDIwIrAkRwKwMiIAMysCJABE4EyGBlQAS8b6tbjbkZs3tX21Wv9md6+r3+mZnPJrb5xPFnJYJKAk6EWjgQ+MY64U1YCU/2ndSaI9iV943QDMywld+l8Bn7pwhQ+ixAgt0Lj6bWA7BWC6fC0vxYO7bMfnliAjYRHCN1MlhTFamErBUoJb5nJqZ3CwlwfBUqAdUEH2OQkE0nHLqwkOBCP6n7i1CPiRz4rvR+JNCP2zgDXyRFar6J0ZOHUGSYwbdFLI1uifhPnDAYDdoR9rx+pUiZ9SzB5CW6lqIrgRPKFGxi/zaZMSX4vtAK5yMZ2MOYfggc1v78xA1lARX0gkli3LoCUaV1xpsJ+hJqE9pvy10VToJPKhuCLixoYwLWgucI+E+5OCh+zyCE7O7sGSfFyeegDrrsws0+cvSDMvgFSJ07gTIC3pNWOlRO4JuzSrcloL6UoM0F2obgXZsbgREebaUSoTjZvKFMJYKhcbJ+kxP8AF1CVBmNrvUgAAAAAElFTkSuQmCC"
+          />
+          20k |
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABP0lEQVRIS+2U8ZFBMRCHqeB0wFWADqgAHZwO6EAJSqCDuwrQARXQwSnBfmbXrEheYsab8YfM7IT3Nr9vf5u8NBs1j2bN+o23ALTE5Uad9p91nHNg4j0VzuU/8KsWhOIsfhnAix9EuPtKB6H4QMT/FXCSmdhK/Ensc3sSWo6Jn1XIXHhNYAuJdQrkASlxv5YcNnys0daXOJmouzuWB5BElfSctlB5bvyoA0DkD8O2xQCASCwBUACuVhIjdcC3clsbtmirLp6FALIOsB84u47YJscgv1qhbxmC5HKamDsSR034VjfRDwfLIcSOqQf43yf5M5WYaSFzmZcxB7YohMSuCp7RCk6UnSZAONlJDKoAvPMQA6euioVW/6WJRYAYpOouwtFK4u5aKbm8zAlAa1VqLx5ySwApsaLnH0C2TbW36AJrqUQZ6z5BKgAAAABJRU5ErkJggg=="
+          />
+          12k
+        </div>
+      </div>
     </div>
-  </div>
-</body> 
+  </body>
 </html>
